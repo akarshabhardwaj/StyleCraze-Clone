@@ -1,0 +1,144 @@
+
+
+#makeup{
+    width: 60%;
+    background-color: bisque;
+    margin: auto;
+}
+#stick{
+    border: 0px solid black;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+#stick>img{
+    margin: auto;
+    align-items: center;
+}
+#btns{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#btns>a>button{
+    border: 0px;
+    background-color: white;
+    font-size: 17px;
+    border-right: 2px solid rgb(230, 40, 72);
+    text-align: center;
+}
+#btns>a:nth-child(10)>button{
+    border-right: 0px solid rgb(230, 40, 72);
+}
+#btns>a>button:hover{
+    color: rgb(230, 40, 72);
+    cursor: pointer;
+    font-size: 32px;
+    border: 2px solid  rgb(230, 40, 72);
+    background-color: black;
+}
+#makeup>h1{
+    width: 100%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 81px;
+    color: #333333;
+    text-align: center;
+}
+#makeup>p{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #424242;
+    padding: 20px;
+}
+#makeup>img{
+    padding: 80px;
+}
+#makeup>h2{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+    text-align: center; 
+}
+#makeup>ul{
+    border: 0px solid black;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+#makeup>ul>li{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #337ab7;
+}
+
+#procedure{
+    width: 50%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    background-color: bisque;
+}
+#procedure>h2,p{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size:24px ;
+    line-height: 38px;
+    color: #424242;
+}
+#procedure>ul{
+    width: 50%;
+    margin: auto;
+}
+#procedure>ul>li{
+    
+    font-family: sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size:18px ;
+    line-height: 30px;
+    color: #424242;
+}
+#makeupbottom{
+    border: 0px solid red;
+    width: 40%;
+    margin: auto;
+    padding: auto;
+    padding-left: 40px;
+    margin-top: 40px;
+    background-color:bisque ;
+}
+#makeupbottom>h3{
+    font-family: sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size:18px ;
+    line-height: 30px;
+    color: #424242;   
+}
+#makeupbottom>h2{
+    font-family: sans-serif;;
+    font-style: normal;
+    font-weight: 800;
+    font-size:22px ;
+    line-height: 35px;
+    color: #424242;   
+  
+}
