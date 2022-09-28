@@ -1,0 +1,77 @@
+#stick{
+    border: 0px solid black;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+#stick>img{
+    margin: auto;
+    align-items: center;
+}
+#btns{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#btns>a>button{
+    border: 0px;
+    background-color: white;
+    font-size: 17px;
+    border-right: 2px solid rgb(230, 40, 72);
+    text-align: center;
+}
+#btns>a:nth-child(10)>button{
+    border-right: 0px solid rgb(230, 40, 72);
+}
+#btns>a>button:hover{
+    color: rgb(230, 40, 72);
+    cursor: pointer;
+    font-size: 32px;
+    border: 2px solid  rgb(230, 40, 72);
+    background-color: black;
+}
+#haircaretop{
+    border: 0px solid black;
+    margin: auto;
+    display: flex;
+    width: 80%;
+    margin-top: 25px;
+}
+#haircaretop>div+div{
+    border: 0px solid black;
+width: 35%;
+height: 20%;
+margin: auto;
+margin-top: 20%;
+font-family: Poppins, Poppins-Hindi, sans-serif;
+font-weight: 100;
+font-size: 20px;
+line-height: 30px;
+color:#333333;
+}
+#haircarefinal{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,auto);
+    gap: 20px;
+    margin-top: 25px;
+    
+}
+#haircarefinal>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#haircarefinal>div>img{
+    width: 100%;
+}
+@media all and  (min-width:300px)and (max-width:650px){
+#haircarefinal{
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(9,auto);
+}
+}
