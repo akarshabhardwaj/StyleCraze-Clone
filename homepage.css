@@ -1,10 +1,14 @@
 #stick{
     border: 0px solid black;
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
 }
 #stick>img{
     margin: auto;
@@ -233,3 +237,10 @@ a>h1{
     text-decoration: underline;
     text-decoration-color: white;
 }
+#hstop{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
