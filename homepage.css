@@ -1,0 +1,543 @@
+#stick{
+    border: 0px solid black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+}
+#stick>img{
+    margin: auto;
+    align-items: center;
+}
+#btns{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#btns>a>button{
+    border: 0px;
+    background-color: white;
+    font-size: 17px;
+    border-right: 2px solid rgb(230, 40, 72);
+    text-align: center;
+}
+#btns>a:nth-child(9)>button{
+    border-right: 0px solid rgb(230, 40, 72);
+}
+#btns>a>button:hover{
+    color: rgb(230, 40, 72);
+    cursor: pointer;
+    font-size: 32px;
+    border: 2px solid  rgb(230, 40, 72);
+    background-color: black;
+}
+
+#topimgs{
+    border: 0px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: auto;
+    gap: 5px;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-bottom:40px ;
+}
+#topmings>div{
+    height: auto;
+    border: 0px solid white;
+    
+}
+#topimgs>div>img{
+    width: 100%;
+}
+#topimgs>div>h2{
+    width: 80%;
+    text-align: center;
+    color: rgb(54, 52, 52);
+    margin: auto;
+}
+#social{
+    border: 0px solid black;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-row: auto;
+}
+#social>div{
+    border: 0px solid red;
+}
+#social>div:nth-child(1){
+    background-color: rgb(59,89,153);
+    color: white;
+    text-align: center;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+}
+#social>div:nth-child(2){
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    color:  rgb(59,89,153);
+    text-align: center;
+}
+#social>div:nth-child(3){
+    background-color: rgb(189,15,28);
+    color: white;
+    text-align: center;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+}
+#social>div:nth-child(4){
+    color: rgb(189,15,28);
+    text-align: center;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+}
+#social>div:nth-child(5){
+    background-color: rgb(213,55,145);
+    color: white;
+    text-align: center;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+}  
+#social>div:nth-child(6){
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    color: rgb(213,55,145);
+    text-align: center;
+}
+#mak{
+    text-align: center;
+   font-family: Poppins, Poppins-Hindi, sans-serif;
+   font-size: 35px;
+   line-height: 51px;
+   color:#212121;
+   font-style: normal;
+font-weight: 500;
+text-decoration: underline;
+text-decoration-color:rgb(254,92,116) ;
+}
+#detail{
+    border: 0px solid black;
+    display: flex;
+width: 80%;
+margin: auto;
+margin-bottom:65px ;
+}
+#detail>div{
+    border: 0px solid red;
+    padding: 5px;
+}
+#detail>div+div{
+    padding-top: 70px;
+}
+#detail>div+div>h3{
+    
+    width: 100%;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    color:#000000;
+    font-style: normal;
+ font-weight: 700;
+
+}
+#detail>div+div>p{
+    
+    width: 100%;
+    font-family:Poppins, Poppins-Hindi, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color:#333333;
+    font-style: normal;
+ font-weight: 400;
+
+}
+#eye{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    border: 0px solid blue;
+}
+#eye>div{
+    border: 0px solid black;
+}
+#eye>div:nth-child(3)>img{
+    width: 100%;
+    height: 250px;
+}
+#eye>div>h2{
+    margin: auto;
+    width: 90%;
+    font-family:Poppins, Poppins-Hindi, sans-serif;;
+    font-size: 24px;
+    line-height: 34px;
+    color:#000000;
+    font-style: normal;
+ font-weight: 700;
+}
+#haircareparent{
+    background-color: rgb(254,92,116);
+    width: 100%;
+    margin: auto;
+}
+#hairchild{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+#hairchild>div{
+    width: 55%;
+}
+#hairchild>div+div{
+    background-color: white;
+    height: 55%;
+   margin-top :50px; 
+   border-radius: 10px;
+   font-family: Poppins, Poppins-Hindi, sans-serif;
+   padding: 15px;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 700;
+}
+#hairchild>div>img{
+    border-radius: 10px;
+}
+#hairchild2{
+    border:0px solid black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+}
+#hairchild2>div{
+    display: flex;
+    padding: 20px;
+    width: 60%;
+}
+#hairchild2>div>h2{
+   color: black;
+   background-color: white;
+   height: 60%;
+   border-radius: 10px;
+   position: relative;
+   left: -15px;
+   margin-top: 25px;
+}
+#hairchild2>div>img{
+    border-radius: 10px;  
+    width: 70%; 
+}
+a>h1{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+#hstop{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+#hstop>div{
+    width: 70%;
+}
+#hstop>div>img{
+    width: 100%;
+}
+#hstop>div:nth-child(2){
+    width: 30%;
+padding: 10px;
+margin-top: 30px;
+}
+#hsbottom{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 20px;
+}
+#hs{
+    text-align: center;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 51px;
+    color: #212121;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+}
+#hstop>div:nth-child(2)>h2{
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 34px;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    width: 100%;
+}
+#hstop>div:nth-child(2)>p{
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    color: #333333;
+}
+#hstop>div:nth-child(2)>h4{
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    width: 100%;
+    color: #fe5c75;
+}
+#hsbottom>div>p{
+    width: 60%;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    width: 100%;
+    color: #fe5c75;
+}
+#skincareparent{
+    background-color: rgb(254,92,116);
+    width: 100%;
+    margin: auto;
+}
+#skinchild{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+#skinchild>div{
+    width: 55%;
+}
+#skinchild>div+div{
+    background-color: white;
+    height: 55%;
+   margin-top :50px; 
+   border-radius: 10px;
+   font-family: Poppins, Poppins-Hindi, sans-serif;
+   padding: 15px;
+   font-size: 20px;
+   line-height: 30px;
+   font-weight: 700;
+}
+#skinchild>div>img{
+    border-radius: 10px;
+}
+#skinchild2{
+    border:0px solid black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+}
+#skinchild2>div{
+    display: flex;
+    padding: 20px;
+    width: 60%;
+}
+#skinchild2>div>h2{
+   color: black;
+   background-color: white;
+   height: 60%;
+   border-radius: 10px;
+   position: relative;
+   left: -15px;
+   margin-top: 25px;
+}
+#skinchild2>div>img{
+    border-radius: 10px;  
+    width: 70%; 
+}
+#press{
+    background-color: #fe5c75;
+}
+#pres{
+    padding: 25px;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 51px;
+    color: #ffffff;
+    text-align: center;
+}
+#press>div{
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    justify-content: space-around;
+}
+#press>div>div{
+    background-color: white;
+    padding: 30px;
+    height: 60%;
+}
+#meet{
+    border: 0px solid black;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    gap: 20px;
+}
+#meet img{
+    width: 40%;
+}
+#meet>div{
+    display: flex;
+}
+#meet2{
+    display:inline-block;
+    padding: 5px;
+}
+#meet2 h2{
+    text-align: center;
+    font-family:Poppins, Poppins-Hindi, sans-serif ;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    color:#fe5c75 ;
+}
+#meet p{
+    text-align: center;
+    font-family:Poppins, Poppins-Hindi, sans-serif ;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color:#222121 ;  
+}
+#ins{
+    margin-top: 25px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family:Poppins, Poppins-Hindi, sans-serif ;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 100;
+    color:#212121 ;  
+}
+#team>button{
+    margin-top: 25px;
+ margin-left: 40%;
+ padding: 20px;
+ width: 20%;
+ background-color: #fe5c75;
+ color: #ffffff;
+ border: 0px;
+ font-size: 16px;
+}
+#team>button:hover{
+    background-color: #ee3450;
+    cursor:pointer;
+}
+#testimonals{
+    width: 100%;
+    background-color: #fe5c75;
+    padding-bottom:20px ;
+}
+#testi{
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap:30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+#testi p{
+    text-align: center;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color:rgba(33, 33, 33, 0.87);
+    font-style: italic;
+}
+#testi h2{
+    text-align: center;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color:#fe5c75;
+    font-style: normal;
+}
+#testihead{
+    text-align: center;
+}
+#footer{
+    width: 80%;
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 25px;
+}
+#footer>div:nth-child(3){
+    display: flex;
+}
+#footer>div:nth-child(3)>img{
+    width: 5%;
+    padding: 20px;  
+}
+#footer>div{
+    
+    padding: 20px;
+}
+#footer>div p:hover{
+    color:rgb(79, 79, 232);
+    cursor: pointer;
+}
+#footer>div p{
+    text-align: center;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    font-weight: 400px;
+    font-size: 16px; 
+    line-height: 20px;
+    color: #333333;
+}
+#ending{
+    background-color: #e6e6e6;
+    text-align: center;
+}
+#ending p{
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    font-weight: 400px;
+    font-size: 16px; 
+    line-height: 12px;
+    color: #333333;
+    font-weight: 400;
+}
+#medi{
+    text-align: center;
+    font-family: Poppins, Poppins-Hindi, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: #212121;
+    text-decoration: underline;
+    text-decoration-color: #fe5c75;
+}
