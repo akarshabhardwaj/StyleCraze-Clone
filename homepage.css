@@ -542,3 +542,49 @@ margin-top: 30px;
     text-decoration: underline;
     text-decoration-color: #fe5c75;
 }
+@media all and  (min-width:200px)and (max-width:650px){
+    #stick{
+        width: 100%;
+    }
+    #btns{
+       width: 100%;
+       display: grid;
+       grid-template-columns: repeat(5,1fr);
+       grid-template-rows: repeat(2,auto); 
+    }
+    #topimgs,#eye,#hsbottom,#press>div{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,auto);
+    }
+    #social,#meet{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,auto);
+    }
+    #detail{
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,auto);
+    }
+    #haircareparent{
+        width: 100%;
+    }
+    #hairchild2{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,auto);
+    }
+    #meet,#testi{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,auto);
+    }
+    }
+    
