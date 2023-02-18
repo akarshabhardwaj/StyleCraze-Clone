@@ -1,4 +1,4 @@
-# nutritious-deer-4450
+
 
 ## Project Name - StyleCraze-clone
 This is an iformative website where we can get various information about the beauty products and the ways to apply them.The website is fully functional and easy to use and very informative in nature.
